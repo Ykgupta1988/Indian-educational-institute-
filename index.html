@@ -1,1 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indian Educational Institutie</title>
 
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f5f8ff;
+}
+
+.header{
+background:#003b9b;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+.logo{
+width:90px;
+height:90px;
+border-radius:50%;
+background:white;
+margin:auto;
+margin-bottom:10px;
+}
+
+.title{
+font-size:34px;
+font-weight:bold;
+}
+
+.subtitle{
+font-size:18px;
+margin-top:5px;
+}
+
+.hero{
+text-align:center;
+padding:20px;
+}
+
+.hero h2{
+background:#ffc107;
+display:inline-block;
+padding:10px 25px;
+border-radius:10px;
+color:#003b9b;
+}
+
+.hero p{
+font-size:20px;
+margin-top:10px;
+}
+
+.class-box{
+background:#003b9b;
+color:white;
+width:250px;
+margin:15px auto;
+padding:12px;
+border-radius:10px;
+font-size:22px;
+font-weight:bold;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:15px;
+padding:20px;
+}
+
+.card{
+padding:25px;
+border-radius:15px;
+color:white;
+text-align:center;
+font-size:20px;
+font-weight:bold;
+cursor:pointer;
+transition:.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+.live{background:#1e88e5;}
+.study{background:#43a047;}
+.test{background:#fb8c00;}
+.performance{background:#7e57c2;}
+.doubt{background:#e53935;}
+.course{background:#00acc1;}
+
+.features{
+padding:20px;
+}
+
+.features li{
+margin:10px 0;
+font-size:18px;
+}
+
+.footer{
+background:#002b78;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:20px;
+}
+
+.phone{
+font-size:28px;
+font-weight:bold;
+color:#ffd54f;
+}
+
+.download{
+margin-top:15px;
+padding:12px 25px;
+background:#34a853;
+border:none;
+color:white;
+font-size:18px;
+border-radius:10px;
+cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+<div class="logo"></div>
+<div class="title">INDIAN EDUCATIONAL INSTITUTIE</div>
+<div class="subtitle">Academy of Science & Commerce</div>
+</div>
+
+<div class="hero">
+<h2>TEACHING APP</h2>
+<p>Your Complete Teaching Platform</p>
+
+<div class="class-box">
+CLASS 9th TO 12th
+</div>
+</div>
+
+<div class="grid">
+
+<div class="card live" onclick="openPage('live.html')">
+📹<br>Live Classes
+</div>
+
+<div class="card study" onclick="openPage('study.html')">
+📚<br>Study Material
+</div>
+
+<div class="card test" onclick="openPage('test.html')">
+📝<br>Test Series
+</div>
+
+<div class="card performance" onclick="openPage('performance.html')">
+📊<br>Performance
+</div>
+
+<div class="card doubt" onclick="openPage('doubt.html')">
+❓<br>Doubt Solving
+</div>
+
+<div class="card course" onclick="openPage('courses.html')">
+🎓<br>My Courses
+</div>
+
+</div>
+
+<div class="features">
+<ul>
+<li>✔ Live Interactive Classes</li>
+<li>✔ Study Notes & PDF Material</li>
+<li>✔ Chapter-wise Test Series</li>
+<li>✔ Performance Tracking</li>
+<li>✔ Instant Doubt Solving</li>
+<li>✔ Competition Classes</li>
+</ul>
+</div>
+
+<div class="footer">
+<h2>YOGENDRA KUMAR</h2>
+
+<div class="phone">
+9821346691
+</div>
+
+<button class="download">
+DOWNLOAD APP
+</button>
+</div>
+
+<script>
+function openPage(page){
+alert("Open : " + page);
+}
+</script>
+
+</body>
+  </html>w
